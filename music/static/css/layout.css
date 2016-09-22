@@ -1,0 +1,21 @@
+a
+{
+    color:blue;
+    text-decoration:none;
+}
+
+h3
+{
+    color: pink;
+}
+
+.text_view
+{
+    width: 500px;
+    padding:10px;
+    border: solid black 2px;
+    border-radius: 10px;
+    overflow:auto;
+    white-space: nowrap;
+}
+

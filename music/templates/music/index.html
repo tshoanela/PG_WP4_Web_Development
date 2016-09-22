@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+</head>
+
+<body>
+{% if all_albums %}
+
+<ul>
+    {% for album in all_albums %}
+    <li>
+        <a href='/music/{{ album.id }}'/>{{ album.album_title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+<div class="text_view">
+hoq said a penguin can not fly Ricco hoq said a penguin can not fly Ricco hoq said a penguin can not fly Ricco hoq said a penguin can not fly Ricco
+</div>
+
+{% else %}
+    <h3> You dont have any album</h3>
+{% endif %}
+
+</body>
+</html>
