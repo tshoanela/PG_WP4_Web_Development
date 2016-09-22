@@ -1,0 +1,5 @@
+[client]
+database = /home/atshoane/Desktop/PG/website/db.sqlite3
+user = 'atshoane'
+password = 'LekaAli60426043'
+default-character-set = 'utf8'
